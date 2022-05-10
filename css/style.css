@@ -1,0 +1,204 @@
+.header{
+    background-color:rgba(157, 127, 218, 0.5);
+    position: absolute;
+    z-index: 2;
+    width:100%;
+}
+.logo img{
+    width: 50px;
+    overflow: hidden;
+    margin:0 15px;
+}
+.nav ul li{
+    margin: 10px;
+}
+.right-nav a{
+    margin:10px;
+}
+.banner{
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.banner img{
+    width:100%;
+    display: block;
+}
+.sub-menu{
+    position: absolute;
+    width: 120px;
+    visibility: hidden;
+    background-color: darkslateblue;
+    opacity: 0;
+    transition-duration: 0.7s;
+    list-style: none;
+    color: white;
+}
+.nav ul li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+a:hover{
+    color: darksalmon;
+}
+.banner-ct{
+    position: absolute;
+    width: 650px;
+    height: auto;
+    background-color: rgba(38, 28, 95, 0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 20px;
+    padding:24px 0 32px;
+}
+.banner-ct img{
+    width: 50px;
+    height: 50px;
+}
+.banner-ct p{
+    padding: 30px;
+}
+#resource{
+    background-color:rgba(157, 127, 218, 0.3);
+}
+.card{
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.card-ct{
+    padding: 8px 0 0;
+}
+.thumbnail-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.thumbnail-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-ct p{
+    padding:24px 0 32px;
+}
+.margin-top{
+    margin-top: 350px;
+}
+.feature{
+    overflow: hidden;
+    position: relative;
+}
+.feature img{
+    width: 100%;
+    height: 700px;
+}
+.feature-sub{
+    height: 700px;
+    position: absolute;
+    width:100%;
+    top: 0;
+    left: 200px;
+}
+.card-1{
+    width: 100%;
+    height: auto;
+    padding: 50px 50px;
+}
+.card-ct-1{
+    background-color: rgba(157, 127, 218,0.7);
+    padding: 30px;
+    border-radius: 20px;
+}
+.card-1 p{
+    margin:20px 0;
+}
+.card-2 p{
+    margin:20px 0;
+}
+.support{
+    background-color: rgba(157, 127, 218,0.3);
+    padding:50px 0;
+    height: auto;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.my-10{
+    margin: 10px 0;
+}
+.my-20{
+    margin: 20px 0;
+}
+.mx-10{
+    margin: 0 10px;
+}
+.py-20{
+    padding: 20px 0;
+}
+.support-content{
+    background-color: lavenderblush;
+    border-radius: 20px;
+    padding: 20px 30px 20px;
+    text-align: center;
+}
+.support-content p{
+    margin: 20px 0 25px;
+}
+.support-content a{
+    margin: 0 10px;
+}
+#lesson{
+    padding: 50px 0;
+    background-color: rgba(157, 127, 218,0.3);
+}
+#lesson p {
+    margin:10px 0;
+}
+footer{
+    position: relative;
+    overflow: hidden;
+}
+footer img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+.nav-footer{
+    background-color: rgba(157, 127, 218,0.4);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.footer-ct h1{
+    margin: 20px;
+ }
+.footer-ct p{
+   margin: 20px;
+}
+.footer-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-sub a {
+    margin: 10px 0;
+    color: white;
+}
+.footer-icon{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+.footer-icon img{
+    height: 100%;
+}
